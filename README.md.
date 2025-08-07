@@ -1,0 +1,37 @@
+# 🔐 Password Strength & Breach Checker
+
+A simple yet powerful **Cyber Security mini project** that:
+
+- ✅ Checks if a password is **strong or weak**
+- 🔍 Verifies if the password has appeared in **real-world data breaches**
+- 🔧 Uses the `HaveIBeenPwned` API for secure leak detection
+
+---
+
+## 📌 Features
+
+- ✔️ Checks for:
+  - Minimum length (8+ characters)
+  - Presence of uppercase, lowercase, digits, special characters
+- ✔️ Classifies password as **Weak**, **Medium**, or **Strong**
+- ✔️ Uses **k-Anonymity** method to securely check password breaches
+- ✔️ Easy to use and test in Google Colab
+
+---
+
+## 🚀 How It Works
+
+1. You input any password (test or real)
+2. The script checks:
+   - Password **strength** based on rules
+   - Whether it's been **leaked in any data breach**
+3. Results are shown with ✅ or ❌
+
+---
+
+## 🧪 Example
+
+```python
+check_password_strength("12345")
+check_data_breach("12345")
+
